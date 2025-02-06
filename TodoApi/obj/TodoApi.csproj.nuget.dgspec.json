@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Downloads\\שרי\\ToDo-List-Deploy-Apps-main\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\user1\\Desktop\\ToDoList Fullstack+Deploy Apps\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Downloads\\שרי\\ToDo-List-Deploy-Apps-main\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\user1\\Desktop\\ToDoList Fullstack+Deploy Apps\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Downloads\\שרי\\ToDo-List-Deploy-Apps-main\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\ToDoList Fullstack+Deploy Apps\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\user1\\Downloads\\שרי\\ToDo-List-Deploy-Apps-main\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\ToDoList Fullstack+Deploy Apps\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Downloads\\שרי\\ToDo-List-Deploy-Apps-main\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\ToDoList Fullstack+Deploy Apps\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,7 +39,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -89,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

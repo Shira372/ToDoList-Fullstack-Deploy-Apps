@@ -4,6 +4,7 @@
 // renderApi.listServices({includePreviews: 'true', limit: '20'})
 //   .then(({ data }) => console.log(data))
 //   .catch(err => console.error(err));
+
 require("dotenv").config();
 const express = require("express");
 const axios = require("axios");
@@ -13,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 
 // API של Render
 const RENDER_API_URL = "https://api.render.com/v1/services";
-const API_KEY = "rnd_PU1OQy0DZeRCfJ4R00tYXPo2Zyn8";
+const API_KEY = "rnd_jKKZmuWbIl41JHiHNBd31GsAIQuB";
 
 // נקודת קצה שמחזירה את רשימת האפליקציות
 app.get("/", async (req, res) => {

@@ -75,5 +75,7 @@ app.MapDelete("/tasks/{id}", async (int id, ToDoDbContext context) =>
     return Results.NoContent();
 });
 
+//בשביל שאני אפנה לכתובת הבסיסית ולא אקבל שגיאה 404
 app.MapGet("/", () => "TodoApi is running");
+
 app.Run();
